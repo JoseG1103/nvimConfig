@@ -27,6 +27,7 @@ Plug('folke/which-key.nvim') --mappings popup
 Plug('romgrk/barbar.nvim') --bufferline
 Plug('goolord/alpha-nvim') --pretty startup
 Plug('nvim-treesitter/nvim-treesitter') --improved syntax
+Plug('nvim-treesitter/nvim-treesitter-context') -- show code context
 Plug('mfussenegger/nvim-lint') --async linter
 Plug('nvim-tree/nvim-tree.lua') --file explorer
 Plug('windwp/nvim-autopairs') --autopairs 
@@ -64,6 +65,7 @@ require("plugins.render-markdown")
 -- require("plugins.treesitter")
 -- require("plugins.twilight")
 -- require("plugins.which-key")
+require("plugins.treesitter-context")
 
 vim.defer_fn(function() 
 		--defer non-essential configs,

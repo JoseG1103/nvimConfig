@@ -40,7 +40,8 @@ Plug('ron-rs/ron.vim') --ron syntax highlighting
 Plug('MeanderingProgrammer/render-markdown.nvim') --render md inline
 Plug('emmanueltouzery/decisive.nvim') --view csv files
 Plug('folke/twilight.nvim') --surrounding dim
-Plug('neovim/nvim-lspconfig') -- Basic LSP Config
+-- Plug('neovim/nvim-lspconfig') -- Basic LSP Config
+Plug('saghen/blink.cmp') -- auto-completion
 vim.call('plug#end')
 
 -- move config and plugin config to alternate files
